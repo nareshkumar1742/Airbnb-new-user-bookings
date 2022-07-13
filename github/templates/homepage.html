@@ -1,0 +1,36 @@
+<htmk>
+    <style>
+        body {background-color: deepskyblue ;}
+        h1 {color: red;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;}
+        input[type=submit]{
+            width: 10%;
+            background-color: darkgreen;
+            color: white;
+        }
+    </style>
+    <body>
+        <h1>For Prediction</h1><br>
+        For getting the prediction of the user
+        <form action='/preprocess' method="post">
+        <label for="Users">Users data:</label>
+        <input type='text' id='user1' name='user1' size='100'><br><br>
+        <label for='Session'>Sessions data:</label>
+        <input tpye='text' id='session1' name='session1' size='100' value=0><br><br>
+        <input type='submit' value='Submit'>
+        </form>
+        <h1>For Metric</h1>
+        For getting the metric score of the prediction
+        <form action='/metric' method ='post'>
+        <label for="Users">Users data:</label>
+        <input type='text' id='user2' name='user2' size='100'><br><br>
+        <label for='Session'>Sessions data:</label>
+        <input tpye='text' id='session2' name='session2' size='100' value=0><br><br>
+        <label for='Target'>Target:</label>
+        <input type='text' id='target' name='target' size='10'><br><br>
+        <input type='submit' value='Submit'>
+        </form>
+    </body>
+    
+</htmk>

@@ -1,0 +1,11 @@
+,action_type
+view,9
+data,8
+click,7
+unkown_action_type,6
+-unknown-,5
+submit,4
+message_post,3
+booking_request,2
+partner_callback,1
+booking_response,0

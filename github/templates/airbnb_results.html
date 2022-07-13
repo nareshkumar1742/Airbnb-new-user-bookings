@@ -1,0 +1,26 @@
+<html>
+    <style>
+        body {background-color: forestgreen;}
+        h1 {color: magenta;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;}
+        table {border: red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;}
+    </style>
+    <h1>USERS PREFERENCE</h1>
+    <body>
+        <table border=2>
+            <tr>
+            <th>ID</th>
+            <th>Country Prefernce</th>
+            </tr>
+            {% for key,value in result.items() %}
+            <tr>
+            <td>{{ key }}</td>
+            <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
