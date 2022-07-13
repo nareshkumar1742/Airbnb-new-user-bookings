@@ -28,7 +28,7 @@ age_gender_bkts: This file has the information of number of people within the bu
 
 test_users.csv: Has the same informations as the train_users_2 file. User id in test_users file are also in sessions.csv file.
 
-Description about the files in the repository:
+**Description about the files in the repository**
 
 'Users_Feature_Extraction,_Analysis,_Engineering.ipynb' file contains the analysis, feature engineering of train_users.csv file.
 
